@@ -22,9 +22,9 @@ struct PickerView: View {
                             .rotationEffect(.degrees(90))
                         
                         Rectangle()
-                            .frame(width: number % 5 == 0 ? 40 : 20, height: 5)
+                            .frame(width: number % 5 == 0 ? 40 : 15, height: 5)
                         Rectangle()
-                            .frame(width: number % 5 == 0 ? 0 : 20, height: 5)
+                            .frame(width: number % 5 == 0 ? 0 : 25, height: 5)
                             .foregroundStyle(.clear)
                     }
                     .tag(number)
