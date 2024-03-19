@@ -113,11 +113,12 @@
 			};
 			buildConfigurationList = F8FF913E2BA920E1006315B7 /* Build configuration list for PBXProject "SenseOfTime" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = ko;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = F8FF913A2BA920E1006315B7;
 			productRefGroup = F8FF91442BA920E1006315B7 /* Products */;
