@@ -8,17 +8,35 @@
 import SwiftUI
 
 struct ProgressView: View {
+    @State var second = 1
+    
     var body: some View {
-        Picker(selection: .constant(5)) {
-            ForEach(0..<301) {
-                Text($0.description)
-            }
-        } label: {
+        VStack(spacing: -20) {
+            Image(systemName: "arrowtriangle.down.fill")
             
+            Picker(selection: $second) {
+                ForEach(1..<301) { number in
+                    HStack {
+                        Text(number.description)
+                            .font(.footnote)
+                            .rotationEffect(.degrees(90))
+                        
+                        Rectangle()
+                            .frame(width: number % 5 == 0 ? 40 : 20, height: 5)
+                        Rectangle()
+                            .frame(width: number % 5 == 0 ? 0 : 20, height: 5)
+                            .foregroundStyle(.clear)
+                    }
+                    .tag(number)
+                }
+            } label: { }
+                .rotationEffect(.degrees(-90))
+                .frame(width: 100)
+                .pickerStyle(.wheel)
+                .scaleEffect(2.0)
+            
+            Image(systemName: "arrowtriangle.up.fill")
         }
-        .pickerStyle(.wheel)
-
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
