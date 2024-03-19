@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ProgressView: View {
+struct PickerView: View {
     @State var second = 1
     
     var body: some View {
@@ -41,5 +41,5 @@ struct ProgressView: View {
 }
 
 #Preview {
-    ProgressView()
+    PickerView()
 }
