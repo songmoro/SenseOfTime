@@ -14,6 +14,7 @@
 		F8FF91552BA92206006315B7 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FF91542BA92206006315B7 /* ButtonView.swift */; };
 		F8FF91572BA924F2006315B7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FF91562BA924F2006315B7 /* Model.swift */; };
 		F8FF91592BA92E96006315B7 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FF91582BA92E96006315B7 /* PickerView.swift */; };
+		F8FF915B2BAA699B006315B7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FF915A2BAA699B006315B7 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		F8FF91542BA92206006315B7 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F8FF91562BA924F2006315B7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		F8FF91582BA92E96006315B7 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		F8FF915A2BAA699B006315B7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			children = (
 				F8FF91462BA920E1006315B7 /* SenseOfTimeApp.swift */,
 				F8FF91482BA920E1006315B7 /* ContentView.swift */,
+				F8FF915A2BAA699B006315B7 /* MainView.swift */,
 				F8FF91542BA92206006315B7 /* ButtonView.swift */,
 				F8FF91582BA92E96006315B7 /* PickerView.swift */,
 				F8FF91562BA924F2006315B7 /* Model.swift */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8FF91492BA920E1006315B7 /* ContentView.swift in Sources */,
+				F8FF915B2BAA699B006315B7 /* MainView.swift in Sources */,
 				F8FF91472BA920E1006315B7 /* SenseOfTimeApp.swift in Sources */,
 				F8FF91592BA92E96006315B7 /* PickerView.swift in Sources */,
 				F8FF91552BA92206006315B7 /* ButtonView.swift in Sources */,
