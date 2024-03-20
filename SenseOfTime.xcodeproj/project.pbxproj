@@ -14,6 +14,7 @@
 		F8FF91552BA92206006315B7 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FF91542BA92206006315B7 /* ButtonView.swift */; };
 		F8FF91572BA924F2006315B7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FF91562BA924F2006315B7 /* Model.swift */; };
 		F8FF915B2BAA699B006315B7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FF915A2BAA699B006315B7 /* MainView.swift */; };
+		F8FF915D2BAAD5B5006315B7 /* ReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FF915C2BAAD5B5006315B7 /* ReadyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		F8FF91542BA92206006315B7 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F8FF91562BA924F2006315B7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		F8FF915A2BAA699B006315B7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F8FF915C2BAAD5B5006315B7 /* ReadyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				F8FF91462BA920E1006315B7 /* SenseOfTimeApp.swift */,
 				F8FF91482BA920E1006315B7 /* ContentView.swift */,
 				F8FF915A2BAA699B006315B7 /* MainView.swift */,
+				F8FF915C2BAAD5B5006315B7 /* ReadyView.swift */,
 				F8FF91542BA92206006315B7 /* ButtonView.swift */,
 				F8FF91562BA924F2006315B7 /* Model.swift */,
 				F8FF914A2BA920E2006315B7 /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8FF915D2BAAD5B5006315B7 /* ReadyView.swift in Sources */,
 				F8FF91492BA920E1006315B7 /* ContentView.swift in Sources */,
 				F8FF915B2BAA699B006315B7 /* MainView.swift in Sources */,
 				F8FF91472BA920E1006315B7 /* SenseOfTimeApp.swift in Sources */,
